@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test": "jest",
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "start-aoc": "ts-node src/5_AOC/index.ts"
   }
 }
