@@ -18,6 +18,6 @@
   "scripts": {
     "test": "jest",
     "start": "ts-node src/index.ts",
-    "start-aoc": "ts-node src/5_AOC/index.ts"
+    "start-aoc": "ts-node src/6_AOC/index.ts"
   }
 }
