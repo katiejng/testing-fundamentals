@@ -1,10 +1,10 @@
 interface Todo {
-  id: number;
+  id: string;
   text: string;
   completed: boolean;
 }
 let todoList1: Todo[] = [];
 
-const addTodo1 = (newTodo: { text: string; completed: boolean }): Todo[] => {
+const addTodo1 = (newTodo: { text: string }): Todo[] => {
   return [];
 };

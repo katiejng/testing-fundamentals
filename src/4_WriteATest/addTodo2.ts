@@ -1,5 +1,5 @@
 interface Todo {
-  id: number;
+  id: string;
   text: string;
   completed: boolean;
 }
@@ -17,6 +17,6 @@ const platform: Platform = {
 
 const addTodo2 =
   (platform: Platform) =>
-  (newTodo: { text: string; completed: boolean }): Todo[] => {
+  (newTodo: { text: string }): Todo[] => {
     return [];
   };
