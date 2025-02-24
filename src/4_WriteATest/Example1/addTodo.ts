@@ -3,8 +3,7 @@ interface Todo {
   text: string;
   completed: boolean;
 }
-let todoList1: Todo[] = [];
 
-const addTodo1 = (newTodo: { text: string }): Todo[] => {
+const addTodo1 = (todoList: Todo[], newTodo: { text: string }): Todo[] => {
   return [];
 };
